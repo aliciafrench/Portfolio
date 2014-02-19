@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: foundationAQv2_test
+  database: Alicia
   pool: 5
-  username: foundationAQv2
+  username:
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: foundationAQv2_production
+  database: Alicia
   pool: 5
-  username: foundationAQv2
+  username:
   password:
