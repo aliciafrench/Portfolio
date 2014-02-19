@@ -1,7 +1,12 @@
 language: ruby
 rvm:
-  - 2.1.0
+- 2.1.0
 env:
-  - DB=postgresql
-script: 
-  - bundle exec rake
+- DB=postgresql
+script:
+- bundle exec rake
+deploy:
+  provider: heroku
+  app: aliciafromparis
+  api_key:
+    secure: plDgAUXwybXV+d3JqpxjUVN07LvGABk4I1RzObzFJJa/dii7DfMOXjDO6+0wHgEnlBWcy1GdRkldR7KGFR4yeidKxV1KZMCh4KGj7XtJ2goIigvisEsCN8fi65ALfHXP2UsVP0+Ff8u/iUAaPTQch66DWD94zg4QJKmtJt7Ifec=
