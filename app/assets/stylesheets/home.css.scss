@@ -2,7 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-background-image: image-url("paris.jpg");
+.myhead{
+margin-top: -50px; padding-top: 200px;  padding-bottom: 50px;
+ background: url("background.jpg") no-repeat;  background-size: 100%; background-position: center center;
 }
+
+ .myhead h1, .myhead h4 { color: #FFF;
+ }
+
+<!-- body {background-image: image-url(".jpg");} -->
 
