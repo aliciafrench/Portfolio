@@ -1012,8 +1012,8 @@
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
-// $topbar-bg: $topbar-bg-color;
+$topbar-bg-color: #212D48;
+$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -1086,7 +1086,7 @@
 // $header-font-family: join("Open Sans", $body-font-family);
 // $header-font-weight: 300;
 // $header-font-style: normal;
-// $header-font-color: #222;
+ $header-font-color: #222;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -1149,12 +1149,12 @@
 // $definition-list-margin-bottom: rem-calc(12);
 
 // We use these to style blockquotes
-// $blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
-// $blockquote-padding: rem-calc(9 20 0 19);
-// $blockquote-border: 1px solid #ddd;
-// $blockquote-cite-font-size: rem-calc(13);
-// $blockquote-cite-font-color: scale-color($header-font-color, $lightness: 23%);
-// $blockquote-cite-link-color: $blockquote-cite-font-color;
+ $blockquote-font-color: scale-color($header-font-color, $lightness: 60%);
+ $blockquote-padding: rem-calc(9 20 0 19);
+ $blockquote-border: 1px solid #ddd;
+ $blockquote-cite-font-size: rem-calc(13);
+ $blockquote-cite-font-color: scale-color($header-font-color, $lightness: 48%);
+ $blockquote-cite-link-color: $blockquote-cite-font-color;
 
 // Acronym styles
 // $acronym-underline: 1px dotted #ddd;

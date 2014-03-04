@@ -1,105 +1,46 @@
-<!-- Menu -->
- <nav class="top-bar">
-    <ul class="title-area">
-      <!-- Title Area -->
-      <li class="name">
-        <h1>
-          <a href="#">2014</a>
-        </h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-    </ul>
- 
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Professional</a>
-          <ul class="dropdown">
-            <li><label>Section Name</label></li>
-            <li class="has-dropdown">
-              <a href="#" class="">Has Dropdown, Level 1</a>
-              <ul class="dropdown">
-                <li><a href="#">Dropdown Options</a></li>
-                <li><a href="#">Dropdown Options</a></li>
-                <li><a href="#">Level 2</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><label>Section Name</label></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><a href="#">See all &rarr;</a></li>
-          </ul>
-        </li>
-        <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Personal</a>
-          <ul class="dropdown">
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><a href="#">See all &rarr;</a></li>
-          </ul>
-        </li>
-        <li class="divider"></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
-    </section>
-  </nav>
 
 <!-- Header -->
 <header class="myhead">
   <div class ="row">
     <div class="twelve columns">
  			<h1>Paris-Tokyo-Seattle</h1>
- 			<h4>a portfolio exercise</h4>
+ 			<h4>portfolio exercise</h4>
  		</div>
  	</div>
  </header>
-<div class="dark">
-  <div class="row">
+<div class="dark" >
+  <div class="row" >
     <div class="small-4 columns">
-      <p class="lightT">Learning and Practising Ruby on Rails</p>
+      <p class="lightT">A Technical Program Manager learning and practising Ruby on Rails</p>
     </div>
-    <div class=”small-8 columns”>
-      <blockquote>“I can't go back to yesterday because I was a different person then.”  <cite>Lewis Carroll, Alice in Wonderland</cite></ blockquote>
+    <div class="small-8 columns">
+      <blockquote>“I can't go back to yesterday because I was a different person then.”  <cite>Lewis Carroll, Alice in Wonderland</cite></blockquote>
     </div>
   </div>
 </div>
-<div>
-<h1>Bonjour!</h1>
-<%= link_to "My Blog", posts_path %>
-</div>
-<div class="large-4 columns">
+<div class = "main">
   <div class="row">
-    <br><br><br><br><br><br>
-  </div>
-  <div class="row">
-    <h2>Exercice</h2>
-    <p>Zurb Foundation exercice for my Rails class.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-</div>
-</div>
-<div class="large-4 columns">
-  <br>           
-</div>
-<div class="large-4 columns">
-  <div class="row">
-  </div>
-  <div class="row">
-    <h1>Home Alicia</h1>
-  </div>
+    <div class="small-6 large-3 columns">
+      <%= image_tag "eiffel3.jpg" %>
+      <p>France</p>
+    </div>
+    <div class="small-6 large-3 columns">
+      <%= image_tag "tokyo2.jpg" %>
+      <p>Japan</p>
+    </div>
+    <div class="small-6 large-3 columns">
+      <%= image_tag "needle2.jpg" %>
+      <p>USA</p>
+    </div>
+    <div class=”small-6 large-3 columns”>
+     <%= image_tag "rocket2.jpg" %>
+     <p>Next</p>
+     <hr>
+     <p>Home Alicia - Bonjour! ▶︎ 
+     <%= link_to "My Blog", posts_path %>
+     </p>
+    </div>
+    <hr>
+ </div>
 </div>
 

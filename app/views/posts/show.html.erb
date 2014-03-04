@@ -1,3 +1,12 @@
+
+<!-- Main Page Content and Sidebar -->
+
+<div class="row">
+
+<!-- Main Blog Content -->
+  <div class="large-9 columns" role="content">
+
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -12,3 +21,30 @@
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
+
+<br><br>
+
+</div>
+
+<!-- End Main Content -->
+
+<!-- Sidebar -->
+
+  <aside class="large-3 columns">
+      <div class="panel">
+        <h5>About</h5>
+        <%= image_tag "lapin.jpg" %>
+    <br><br>
+        “Cat: Where are you going?<br>
+Alice: Which way should I go?<br>
+Cat: That depends on where you are going.<br>
+Alice: I don’t know.<br>
+Cat: Then it doesn’t matter which way you go.”<br>
+― Lewis Carroll, Alice in Wonderland
+      </div>
+<br><br><br><br><br><br>
+    </aside>
+    <!-- End Sidebar -->
+  </div>
+
+  <!-- End Main Content and Sidebar -->
