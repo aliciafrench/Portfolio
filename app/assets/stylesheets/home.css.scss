@@ -7,8 +7,16 @@ margin-top: -50px; padding-top: 200px;  padding-bottom: 50px;
  background: url("background.jpg") no-repeat;  background-size: 100%; background-position: center center;
 }
 
- .myhead h1, .myhead h4 { color: #FFF;
- }
+.myhead h1, .myhead h4 { color: #FFF;
+}
+
+.dark{
+  background-color: #0d0e26; 
+  padding: 30px 0 20px 0;
+}
+.lightT{
+  color: #9CF;
+}
 
 <!-- body {background-image: image-url(".jpg");} -->
 
