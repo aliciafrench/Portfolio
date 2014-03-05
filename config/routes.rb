@@ -1,4 +1,5 @@
 FoundationAQv2::Application.routes.draw do
+  devise_for :members
   resources :posts
 
   get "home/index"

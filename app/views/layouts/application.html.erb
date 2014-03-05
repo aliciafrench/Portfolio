@@ -18,7 +18,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#">2014</a>
+          <li><%= link_to "2014", home_index_path %></li>
         </h1>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
@@ -67,6 +67,10 @@
       </ul>
         <li class="divider"></li>
         <li><a href="#">Contact Me</a></li>
+        <li class="divider"></li>
+        <li><%= link_to "Sign In", new_member_session_path %></li>
+        <li class="divider"></li>
+        <li><%= link_to "Register", new_member_registration_path %></li>
     </section>
   </nav> 
 
