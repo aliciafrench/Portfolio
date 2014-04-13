@@ -4,3 +4,6 @@
 require File.expand_path('../config/application', __FILE__)
 
 FoundationAQv2::Application.load_tasks
+
+MiniTest::Rails::Testing.default_tasks << "features"
+
